@@ -429,39 +429,15 @@ layouts:
 # - focus-window-right
 # - reload-config
 keybinds:
-  - key: "p"
-    shift: false
-    exec: "sh -c '~/rices/switch.sh $(cat ~/rices/.current_rice)'"
-  - key: "w"
-    shift: true
-    exec: "sh -c '~/.config/bspwm/src/WallSelect'"
-  - key: "d"
-    shift: false
-    exec: "sh -c '/home/sam/code/workspace-viewer/C/workspace_widget > /home/sam/wv.log'"
-  - key: "b"
-    shift: false
-    exec: "eww open --toggle brightness"
-  - key: "b"
-    shift: true
-    exec: "sh -c '~/.config/bspwm/src/rofi-bluetooth'"
   - key: "w"
     shift: false
     exec: "rofi -show drun -config /home/sam/rices/nord/.config/rofi/launcher.rasi"
-  - key: "r"
-    shift: false
-    exec: "/home/sam/rices/switchermenu.sh"
   - key: "t"
     shift: false
     exec: "kitty"
   - key: "e"
     shift: false
     exec: "thunar"
-  - key: "m"
-    shift: false
-    exec: "eww open --toggle musicfancy"
-  - key: "m"
-    shift: true
-    exec: "eww open --toggle music"
   - key: "f1"
     shift: false
     exec: "pactl set-sink-mute @DEFAULT_SINK@ toggle'"
